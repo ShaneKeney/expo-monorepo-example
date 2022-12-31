@@ -13,7 +13,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bundleIdentifier": "com.shanekeney.expomonorepo",
       "buildNumber": "1.0.0",
@@ -29,6 +31,10 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {}
+    "extra": {
+      "eas": {
+        "projectId": "fefa53c1-dc64-4e47-90e5-58788fcd7be5"
+      }
+    }
   }
 }
